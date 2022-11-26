@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct LargeNowPlaying: View {
     var body: some View {
         VStack {
             Text("Now playing")
@@ -62,9 +62,9 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct LargeNowPlaying_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        LargeNowPlaying()
     }
 }
 
