@@ -53,6 +53,7 @@ struct AudiobookPlayer: View {
                 
                 Image(systemName: "gobackward.15")
                     .font(.title)
+                    .bold()
                     .padding(.horizontal, 20)
                     .padding(.bottom, 50)
                 
