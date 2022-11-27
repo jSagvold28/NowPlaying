@@ -24,7 +24,7 @@ struct AudiobookPlayer: View {
                 Image("BookCover1")
                     .resizable()
                     .frame(width: 250, height: 350)
-                    .cornerRadius(25)
+                    .cornerRadius(10)
                     .padding(.bottom, 27)
                 
                 // Book name and Author
