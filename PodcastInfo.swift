@@ -37,12 +37,34 @@ struct PodcastInfo: View {
                     .font(.title3)
                     .foregroundColor(.blue)
                     .padding(.horizontal, 5)
+                    .padding(.bottom, 100)
                 Link("Show website", destination: URL(string: "https://www.joerogan.com/")!)
                     .font(.title3)
                     .foregroundColor(.blue)
+                    .padding(.bottom, 100)
                 
                 
             }
+            
+            
+            // Topic info
+            
+            VStack {
+                Text("Topics")
+                    .bold()
+                    .font(.title3)
+                HStack {
+                    Text("Society,")
+                        .font(.title3)
+                    Text("Culture,")
+                        .font(.title3)
+                    Text("Comedy")
+                        .font(.title3)
+                }
+            }
+            
+            
+            // Copyright info
             
             
             Spacer()
